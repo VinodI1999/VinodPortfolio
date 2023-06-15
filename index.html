@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinod portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(98, 98, 244);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(62, 120, 120);
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: aqua;
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        main hr {
+            background-color: rgb(188, 94, 94);
+            height: 0.50rem;
+            margin: 30px 85px;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            width: 40%;
+        }
+
+        .leftsection .Ressume {
+            padding: 14px;
+            background-color: lavender;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+
+        .rightsection {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .Orange {
+            color: rgb(162, 81, 162)
+        }
+
+        #element {
+            color: rgb(77, 77, 197);
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .second .box {
+            background-color: rgb(167, 61, 61);
+            width: 80vw;
+            height: 2px;
+            margin: 30px 0;
+            display: flex;
+        }
+
+        .second .vertical {
+            height: 100px;
+            width: 2px;
+            background-color: white;
+            margin: 0 120px;
+
+        }
+
+        .Topimage {
+            width: 34px;
+            height: 22px;
+            position: relative;
+            top: -25px;
+            left: -12px;
+        }
+
+        .Tittle {
+            position: relative;
+            width: 75px;
+            top: 67px;
+            left: -25px;
+
+        }
+
+        .desc {
+            position: relative;
+            font-size: 10px;
+            color: black;
+            width: 150px;
+            top: 70px;
+            left: -25px;
+        }
+
+        footer {
+            background-color: darkgray;
+            height: 233px;
+            color: black;
+            padding: 12px 0;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-between;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .Text-right {
+            text-align: center;
+        }
+        @media screen and (max-width: 2000px) {
+         body{ background-color: red;
+        }
+        .leftsection{
+            flex-direction: column-reverse;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vinod's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">HOME </a></li>
+                    <li><a href="http://127.0.0.1:5500/About.html">ABOUT </a></li>
+                    <li><a href="http://127.0.0.1:5500/Services.html">My Skills</a></li>
+                    <li><a href="http://127.0.0.1:5500/Projects.html">PROJECTS </a></li>
+                    <li><a href="http://127.0.0.1:5500/Contact.html">CONTACT </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, I am,<span class="Orange">Vinod </span>
+                <div>I am a proffesional web developer</div>
+                <span id="element"></span>
+                <div>
+                    <a href="Updated ressume.pdf" download> <button class="Ressume">My ressume</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="1.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <h1>
+                <li>My expiernce</li>
+            </h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="Topimage" src="developerH-3461405.png" alt="">
+                    <div class="Tittle">About me</div>
+                    <div class="desc">I'm profoundly gifted individual and finished my Four year college education in
+                        Mechanical Designing. Close by my
+                        scholarly accomplishments, I'm likewise shown an enthusiasm for programming and programming
+                        improvement. I'm
+                        effectively finished an outer tasks on full stack improvement in Java, which has outfitted him
+                        with a thorough
+                        comprehension of the Java programming language and its different systems.</div>
+                </div>
+                <div class="vertical">
+                    <img class="Topimage" src="1iIXOmGDzrtTJmdwbn7cGMw.png" alt="">
+                    <div class="Tittle">Java developer</div>
+                    <div class="desc">I am a skilled Java developer with a strong foundation in core Java. my
+                        expertise lies in utilizing Java's object-oriented principles, data structures, and algorithms
+                        to create efficient and reliable applications. I have a deep understanding of Java syntax and
+                        possess the ability to develop robust and scalable software solutions.</div>
+                </div>
+                <div class="vertical">
+                    <img class="Topimage" src="help-you-with-your-html-css-javascript-projects.png" alt="">
+                    <div class="Tittle">Web developer</div>
+                    <div class="desc">I am a skilled web developer proficient in HTML, CSS, and JavaScript. With my
+                        expertise, I can create visually appealing and interactive websites, ensuring a seamless user
+                        experience. My knowledge in these foundational web technologies allows me to bring ideas to
+                        life on the internet with elegance and functionality.</div>
+                </div>
+                <div class="vertical">
+                    <img class="Topimage" src="python-logo-png-open-2000.png" alt="">
+                    <div class="Tittle">Python developer</div>
+                    <div class="desc">I am a skilled Python developer with expertise in core Python. I possess a
+                        deep understanding of the language's syntax, data types, control structures, and object-oriented
+                        programming concepts. my proficiency in Python enables you to create efficient, robust, and
+                        scalable solutions for various software development tasks.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-text">
+                <h3>Vinod portfolio</h3>
+            </div>
+            <div class="second-text">
+                <ul>
+                    <li> <a href="http://127.0.0.1:5500/About.html">ABOUT</a></li>
+                    <li> <a href="http://127.0.0.1:5500/Projects.html">Projects</a></li>
+                    <li><a href="http://127.0.0.1:5500/Services.html">My skills</a></li>
+                    <li><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Text-right">
+            CopyRights&#169Vinodportfolio.com
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am a web developer', 'Android App developer', 'Java developer', 'Logo designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
